@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1900" height="795" viewBox="130.0 45.0 1900 795" role="img" aria-label="Flow 5. Hiring Decision &amp; Offer Management">
+<defs><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="0.8" fill="#dfe8df"/></pattern>
+<filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#154735" flood-opacity=".10"/></filter>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#72827a"/></marker>
+<marker id="openArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="#72827a" stroke-width="1.5"/></marker>
+<style>.textshape{font-family:Arial,Helvetica,sans-serif;paint-order:stroke;stroke:#fff;stroke-width:.35px;stroke-linejoin:round} .node{filter:url(#shadow)}.task{fill:#fff;stroke:#8fa89c;stroke-width:1.7}.lane{stroke:#d0ded4;stroke-width:1.4}.edge{stroke:#819187;stroke-width:1.8;fill:none;stroke-linejoin:round}</style></defs>
+<rect x="130.0" y="45.0" width="1900" height="795" fill="#ffffff"/><rect x="130.0" y="45.0" width="1900" height="795" fill="url(#dots)" opacity=".85"/>
+<rect x="160.0" y="260.0" width="1830.0" height="530.0" fill="#fcfffc" stroke="#a7bbb0" stroke-width="2" rx="2"/>
+<g transform="translate(178.0,525.0) rotate(-90)"><text class="textshape" x="0.0" y="0.0" fill="#28463c" text-anchor="middle" font-size="15" font-weight="650"><tspan x="0.0" dy="0.0">Technology Company</tspan></text></g>
+<rect class="lane" x="190.0" y="660.0" width="1800.0" height="130.0" fill="#f6faf7"/>
+<rect x="190.0" y="660.0" width="31" height="130.0" fill="#e9f1eb" stroke="#d0ded4" stroke-width="1.3"/>
+<g transform="translate(211.0,725.0) rotate(-90)"><text class="textshape" x="0.0" y="-8.8" fill="#28463c" text-anchor="middle" font-size="14" font-weight="650"><tspan x="0.0" dy="0.0">Hiring</tspan><tspan x="0.0" dy="17.5">Department</tspan></text></g>
+<rect class="lane" x="190.0" y="520.0" width="1800.0" height="140.0" fill="#f6faf7"/>
+<rect x="190.0" y="520.0" width="31" height="140.0" fill="#e9f1eb" stroke="#d0ded4" stroke-width="1.3"/>
+<g transform="translate(211.0,590.0) rotate(-90)"><text class="textshape" x="0.0" y="0.0" fill="#28463c" text-anchor="middle" font-size="14" font-weight="650"><tspan x="0.0" dy="0.0">HR</tspan></text></g>
+<rect class="lane" x="190.0" y="260.0" width="1800.0" height="260.0" fill="#f6faf7"/>
+<rect x="190.0" y="260.0" width="31" height="260.0" fill="#e9f1eb" stroke="#d0ded4" stroke-width="1.3"/>
+<g transform="translate(211.0,390.0) rotate(-90)"><text class="textshape" x="0.0" y="0.0" fill="#28463c" text-anchor="middle" font-size="14" font-weight="650"><tspan x="0.0" dy="0.0">HiTalent System</tspan></text></g>
+<rect x="160.0" y="80.0" width="1420.0" height="140.0" fill="#fcfffc" stroke="#a7bbb0" stroke-width="2" rx="2"/>
+<g transform="translate(178.0,150.0) rotate(-90)"><text class="textshape" x="0.0" y="0.0" fill="#28463c" text-anchor="middle" font-size="15" font-weight="650"><tspan x="0.0" dy="0.0">Candidate</tspan></text></g>
+<path class="edge" d="M 670.0 690.0 L 670.0 465.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 695.0 440.0 L 770.0 440.0"  marker-end="url(#arrow)" />
+<text class="textshape" x="718.0" y="456.5" fill="#667a71" text-anchor="middle" font-size="11" font-weight="490"><tspan x="718.0" dy="0.0">Rejected</tspan></text>
+<path class="edge" d="M 670.0 415.0 L 670.0 320.0 L 770.0 320.0"  marker-end="url(#arrow)" />
+<text class="textshape" x="716.5" y="340.0" fill="#667a71" text-anchor="middle" font-size="11" font-weight="490"><tspan x="716.5" dy="0.0">Selected</tspan></text>
+<path class="edge" d="M 1020.0 360.0 L 1020.0 550.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 820.0 480.0 L 820.0 550.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 1610.0 490.0 L 1610.0 550.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 1660.0 590.0 L 1702.0 590.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 1820.0 370.0 L 1820.0 550.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 1870.0 590.0 L 1912.0 590.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 298.0 730.0 L 340.0 730.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 440.0 730.0 L 480.0 730.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 580.0 730.0 L 620.0 730.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 1070.0 590.0 L 1120.0 590.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 870.0 590.0 L 912.0 590.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 1220.0 590.0 L 1270.0 590.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 870.0 320.0 L 970.0 320.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 1530.0 330.0 L 1585.0 330.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 1610.0 355.0 L 1610.0 410.0"  marker-end="url(#arrow)" />
+<text class="textshape" x="1620.5" y="381.0" fill="#667a71" text-anchor="middle" font-size="11" font-weight="490"><tspan x="1620.5" dy="0.0">no</tspan></text>
+<path class="edge" d="M 1635.0 330.0 L 1770.0 330.0"  marker-end="url(#arrow)" />
+<text class="textshape" x="1689.0" y="345.0" fill="#667a71" text-anchor="middle" font-size="11" font-weight="490"><tspan x="1689.0" dy="0.0">yes</tspan></text>
+<path class="edge" d="M 1370.0 150.0 L 1430.0 150.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 1320.0 550.0 L 1320.0 190.0" stroke-dasharray="7 6" marker-end="url(#openArrow)" />
+<path class="edge" d="M 1480.0 190.0 L 1480.0 290.0" stroke-dasharray="7 6" marker-end="url(#openArrow)" />
+<polygon class="node" points="670.0,415.0 695.0,440.0 670.0,465.0 645.0,440.0" fill="#fffdf4" stroke="#b19a64" stroke-width="1.9"/>
+<path d="M 661.0 431.0 l 18 18 m 0 -18 l -18 18" stroke="#a68749" stroke-width="3" stroke-linecap="round"/>
+<text class="textshape" x="609.5" y="412.4" fill="#516c5c" text-anchor="middle" font-size="11.4" font-weight="490"><tspan x="609.5" dy="0.0">What Is the Final</tspan><tspan x="609.5" dy="14.2">Hiring Decision?</tspan></text>
+<rect class="node task" x="770.0" y="400.0" width="100.0" height="80.0" rx="10"/>
+<rect x="777.0" y="407.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="820.0" y="401.6" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="820.0" dy="0.0">Save</tspan><tspan x="820.0" dy="15.4">Decision and</tspan><tspan x="820.0" dy="15.4">Update</tspan><tspan x="820.0" dy="15.4">Candidate</tspan><tspan x="820.0" dy="15.4">Status to</tspan><tspan x="820.0" dy="15.4">Rejected</tspan></text>
+<rect class="node task" x="1560.0" y="550.0" width="100.0" height="80.0" rx="10"/>
+<rect x="1567.0" y="557.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="1610.0" y="582.3" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="1610.0" dy="0.0">Records the</tspan><tspan x="1610.0" dy="15.4">outcome</tspan></text>
+<circle class="node" cx="1720.0" cy="590.0" r="18.0" stroke="#ba7753" stroke-width="4" fill="white"/>
+<circle cx="1720.0" cy="590.0" r="5" fill="#d6ae69"/>
+<rect class="node task" x="1770.0" y="550.0" width="100.0" height="80.0" rx="10"/>
+<rect x="1777.0" y="557.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="1820.0" y="574.6" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="1820.0" dy="0.0">Completes</tspan><tspan x="1820.0" dy="15.4">recruitment</tspan><tspan x="1820.0" dy="15.4">records</tspan></text>
+<circle class="node" cx="1930.0" cy="590.0" r="18.0" stroke="#ba7753" stroke-width="4" fill="white"/>
+<circle cx="1930.0" cy="590.0" r="5" fill="#d6ae69"/>
+<circle class="node" cx="280.0" cy="730.0" r="18.0" stroke="#3f9c77" stroke-width="2.3" fill="white"/>
+<rect class="node task" x="340.0" y="690.0" width="100.0" height="80.0" rx="10"/>
+<rect x="347.0" y="697.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="390.0" y="706.9" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="390.0" dy="0.0">Review</tspan><tspan x="390.0" dy="15.4">Consolidated</tspan><tspan x="390.0" dy="15.4">Interview</tspan><tspan x="390.0" dy="15.4">Results</tspan></text>
+<rect class="node task" x="480.0" y="690.0" width="100.0" height="80.0" rx="10"/>
+<rect x="487.0" y="697.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="530.0" y="714.6" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="530.0" dy="0.0">Make Final</tspan><tspan x="530.0" dy="15.4">Hiring</tspan><tspan x="530.0" dy="15.4">Decision</tspan></text>
+<rect class="node task" x="620.0" y="690.0" width="100.0" height="80.0" rx="10"/>
+<rect x="627.0" y="697.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="670.0" y="714.6" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="670.0" dy="0.0">Submit</tspan><tspan x="670.0" dy="15.4">Hiring</tspan><tspan x="670.0" dy="15.4">Decision</tspan></text>
+<rect class="node task" x="970.0" y="550.0" width="100.0" height="80.0" rx="10"/>
+<rect x="977.0" y="557.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="1020.0" y="574.6" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="1020.0" dy="0.0">Review</tspan><tspan x="1020.0" dy="15.4">Hiring</tspan><tspan x="1020.0" dy="15.4">Decision</tspan></text>
+<circle class="node" cx="930.0" cy="590.0" r="18.0" stroke="#ba7753" stroke-width="4" fill="white"/>
+<circle cx="930.0" cy="590.0" r="5" fill="#d6ae69"/>
+<rect class="node task" x="770.0" y="550.0" width="100.0" height="80.0" rx="10"/>
+<rect x="777.0" y="557.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="820.0" y="566.9" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="820.0" dy="0.0">Send</tspan><tspan x="820.0" dy="15.4">Rejection</tspan><tspan x="820.0" dy="15.4">Notification</tspan><tspan x="820.0" dy="15.4">to Candidate</tspan></text>
+<rect class="node task" x="1120.0" y="550.0" width="100.0" height="80.0" rx="10"/>
+<rect x="1127.0" y="557.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="1170.0" y="574.6" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="1170.0" dy="0.0">Prepare Job</tspan><tspan x="1170.0" dy="15.4">Offer</tspan><tspan x="1170.0" dy="15.4">Details</tspan></text>
+<rect class="node task" x="1270.0" y="550.0" width="100.0" height="80.0" rx="10"/>
+<rect x="1277.0" y="557.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="1320.0" y="574.6" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="1320.0" dy="0.0">Send Job</tspan><tspan x="1320.0" dy="15.4">Offer to</tspan><tspan x="1320.0" dy="15.4">Candidate</tspan></text>
+<rect class="node task" x="970.0" y="280.0" width="100.0" height="80.0" rx="10"/>
+<rect x="977.0" y="287.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="1020.0" y="304.6" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="1020.0" dy="0.0">Notify HR of</tspan><tspan x="1020.0" dy="15.4">Hiring</tspan><tspan x="1020.0" dy="15.4">Decision</tspan></text>
+<rect class="node task" x="770.0" y="280.0" width="100.0" height="80.0" rx="10"/>
+<rect x="777.0" y="287.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="820.0" y="281.6" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="820.0" dy="0.0">Save</tspan><tspan x="820.0" dy="15.4">Decision and</tspan><tspan x="820.0" dy="15.4">Update</tspan><tspan x="820.0" dy="15.4">Candidate</tspan><tspan x="820.0" dy="15.4">Status to</tspan><tspan x="820.0" dy="15.4">Selected</tspan></text>
+<rect class="node task" x="1430.0" y="290.0" width="100.0" height="80.0" rx="10"/>
+<rect x="1437.0" y="297.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="1480.0" y="306.9" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="1480.0" dy="0.0">Record</tspan><tspan x="1480.0" dy="15.4">Candidate's</tspan><tspan x="1480.0" dy="15.4">Offer</tspan><tspan x="1480.0" dy="15.4">Response</tspan></text>
+<polygon class="node" points="1610.0,305.0 1635.0,330.0 1610.0,355.0 1585.0,330.0" fill="#fffdf4" stroke="#b19a64" stroke-width="1.9"/>
+<path d="M 1601.0 321.0 l 18 18 m 0 -18 l -18 18" stroke="#a68749" stroke-width="3" stroke-linecap="round"/>
+<text class="textshape" x="1609.5" y="274.4" fill="#516c5c" text-anchor="middle" font-size="11.4" font-weight="490"><tspan x="1609.5" dy="0.0">Does the Candidate</tspan><tspan x="1609.5" dy="14.2">Accept the Offer?</tspan></text>
+<rect class="node task" x="1560.0" y="410.0" width="100.0" height="80.0" rx="10"/>
+<rect x="1567.0" y="417.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="1610.0" y="419.2" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="1610.0" dy="0.0">Updates</tspan><tspan x="1610.0" dy="15.4">candidate</tspan><tspan x="1610.0" dy="15.4">status to</tspan><tspan x="1610.0" dy="15.4">Offer</tspan><tspan x="1610.0" dy="15.4">Declined</tspan></text>
+<rect class="node task" x="1770.0" y="290.0" width="100.0" height="80.0" rx="10"/>
+<rect x="1777.0" y="297.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="1820.0" y="306.9" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="1820.0" dy="0.0">Updates</tspan><tspan x="1820.0" dy="15.4">candidate</tspan><tspan x="1820.0" dy="15.4">status to</tspan><tspan x="1820.0" dy="15.4">Hired</tspan></text>
+<rect class="node task" x="1270.0" y="110.0" width="100.0" height="80.0" rx="10"/>
+<rect x="1277.0" y="117.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="1320.0" y="134.6" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="1320.0" dy="0.0">Receive and</tspan><tspan x="1320.0" dy="15.4">Review Job</tspan><tspan x="1320.0" dy="15.4">Offer</tspan></text>
+<rect class="node task" x="1430.0" y="110.0" width="100.0" height="80.0" rx="10"/>
+<rect x="1437.0" y="117.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="1480.0" y="142.3" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="1480.0" dy="0.0">Submit Offer</tspan><tspan x="1480.0" dy="15.4">Response</tspan></text>
+</svg>

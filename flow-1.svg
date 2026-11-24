@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1550" height="833" viewBox="130.0 47.0 1550 833" role="img" aria-label="Flow 1 Recruitment management system">
+<defs><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="0.8" fill="#dfe8df"/></pattern>
+<filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#154735" flood-opacity=".10"/></filter>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#72827a"/></marker>
+<marker id="openArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="#72827a" stroke-width="1.5"/></marker>
+<style>.textshape{font-family:Arial,Helvetica,sans-serif;paint-order:stroke;stroke:#fff;stroke-width:.35px;stroke-linejoin:round} .node{filter:url(#shadow)}.task{fill:#fff;stroke:#8fa89c;stroke-width:1.7}.lane{stroke:#d0ded4;stroke-width:1.4}.edge{stroke:#819187;stroke-width:1.8;fill:none;stroke-linejoin:round}</style></defs>
+<rect x="130.0" y="47.0" width="1550" height="833" fill="#ffffff"/><rect x="130.0" y="47.0" width="1550" height="833" fill="url(#dots)" opacity=".85"/>
+<rect x="160.0" y="82.0" width="1480.0" height="748.0" fill="#fcfffc" stroke="#a7bbb0" stroke-width="2" rx="2"/>
+<rect class="lane" x="190.0" y="670.0" width="1450.0" height="160.0" fill="#f6faf7"/>
+<rect x="190.0" y="670.0" width="31" height="160.0" fill="#e9f1eb" stroke="#d0ded4" stroke-width="1.3"/>
+<g transform="translate(211.0,750.0) rotate(-90)"><text class="textshape" x="0.0" y="0.0" fill="#28463c" text-anchor="middle" font-size="14" font-weight="650"><tspan x="0.0" dy="0.0">Hiring Department</tspan></text></g>
+<rect class="lane" x="190.0" y="82.0" width="1450.0" height="348.0" fill="#f6faf7"/>
+<rect x="190.0" y="82.0" width="31" height="348.0" fill="#e9f1eb" stroke="#d0ded4" stroke-width="1.3"/>
+<g transform="translate(211.0,256.0) rotate(-90)"><text class="textshape" x="0.0" y="0.0" fill="#28463c" text-anchor="middle" font-size="14" font-weight="650"><tspan x="0.0" dy="0.0">HiTalent System</tspan></text></g>
+<rect class="lane" x="190.0" y="430.0" width="1450.0" height="240.0" fill="#f6faf7"/>
+<rect x="190.0" y="430.0" width="31" height="240.0" fill="#e9f1eb" stroke="#d0ded4" stroke-width="1.3"/>
+<g transform="translate(211.0,550.0) rotate(-90)"><text class="textshape" x="0.0" y="0.0" fill="#28463c" text-anchor="middle" font-size="14" font-weight="650"><tspan x="0.0" dy="0.0">HR</tspan></text></g>
+<path class="edge" d="M 560.0 720.0 L 560.0 300.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 610.0 260.0 L 660.0 260.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 790.0 760.0 L 710.0 760.0 L 710.0 300.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 760.0 260.0 L 815.0 260.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 865.0 260.0 L 950.0 260.0"  marker-end="url(#arrow)" />
+<text class="textshape" x="901.0" y="275.0" fill="#667a71" text-anchor="middle" font-size="11" font-weight="490"><tspan x="901.0" dy="0.0">yes</tspan></text>
+<path class="edge" d="M 840.0 285.0 L 840.0 330.0"  marker-end="url(#arrow)" />
+<text class="textshape" x="855.5" y="312.0" fill="#667a71" text-anchor="middle" font-size="11" font-weight="490"><tspan x="855.5" dy="0.0">no</tspan></text>
+<path class="edge" d="M 1050.0 260.0 L 1100.0 260.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 840.0 410.0 L 840.0 720.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 1150.0 300.0 L 1150.0 460.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 1200.0 500.0 L 1255.0 500.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 1305.0 500.0 L 1370.0 500.0"  marker-end="url(#arrow)" />
+<text class="textshape" x="1330.5" y="516.0" fill="#667a71" text-anchor="middle" font-size="11" font-weight="490"><tspan x="1330.5" dy="0.0">no</tspan></text>
+<path class="edge" d="M 1280.0 525.0 L 1280.0 560.0"  marker-end="url(#arrow)" />
+<text class="textshape" x="1300.0" y="544.0" fill="#667a71" text-anchor="middle" font-size="11" font-weight="490"><tspan x="1300.0" dy="0.0">yes</tspan></text>
+<path class="edge" d="M 1230.0 760.0 L 1150.0 760.0 L 1150.0 540.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 1470.0 500.0 L 1532.0 500.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 1280.0 640.0 L 1280.0 720.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 440.0 760.0 L 510.0 760.0"  marker-end="url(#arrow)" />
+<path class="edge" d="M 278.0 760.0 L 340.0 760.0"  marker-end="url(#arrow)" />
+<rect class="node task" x="1230.0" y="720.0" width="100.0" height="80.0" rx="10"/>
+<rect x="1237.0" y="727.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="1280.0" y="744.6" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="1280.0" dy="0.0">Provide</tspan><tspan x="1280.0" dy="15.4">additional</tspan><tspan x="1280.0" dy="15.4">information</tspan></text>
+<rect class="node task" x="790.0" y="720.0" width="100.0" height="80.0" rx="10"/>
+<rect x="797.0" y="727.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="840.0" y="736.9" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="840.0" dy="0.0">Complete</tspan><tspan x="840.0" dy="15.4">Missing</tspan><tspan x="840.0" dy="15.4">Required</tspan><tspan x="840.0" dy="15.4">Information</tspan></text>
+<rect class="node task" x="510.0" y="720.0" width="100.0" height="80.0" rx="10"/>
+<rect x="517.0" y="727.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="560.0" y="744.6" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="560.0" dy="0.0">Submit</tspan><tspan x="560.0" dy="15.4">Recruitment</tspan><tspan x="560.0" dy="15.4">Request</tspan></text>
+<rect class="node task" x="340.0" y="720.0" width="100.0" height="80.0" rx="10"/>
+<rect x="347.0" y="727.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="390.0" y="744.6" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="390.0" dy="0.0">Create</tspan><tspan x="390.0" dy="15.4">Recruitment</tspan><tspan x="390.0" dy="15.4">Request</tspan></text>
+<circle class="node" cx="260.0" cy="760.0" r="18.0" stroke="#3f9c77" stroke-width="2.3" fill="white"/>
+<polygon class="node" points="1280.0,475.0 1305.0,500.0 1280.0,525.0 1255.0,500.0" fill="#fffdf4" stroke="#b19a64" stroke-width="1.9"/>
+<path d="M 1271.0 491.0 l 18 18 m 0 -18 l -18 18" stroke="#a68749" stroke-width="3" stroke-linecap="round"/>
+<text class="textshape" x="1279.5" y="446.2" fill="#516c5c" text-anchor="middle" font-size="11.4" font-weight="490"><tspan x="1279.5" dy="0.0">Is further</tspan><tspan x="1279.5" dy="14.2">information</tspan><tspan x="1279.5" dy="14.2">needed?</tspan></text>
+<rect class="node task" x="1230.0" y="560.0" width="100.0" height="80.0" rx="10"/>
+<rect x="1237.0" y="567.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="1280.0" y="569.2" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="1280.0" dy="0.0">Coordinate</tspan><tspan x="1280.0" dy="15.4">with Hiring</tspan><tspan x="1280.0" dy="15.4">Department /</tspan><tspan x="1280.0" dy="15.4">Tech Lead to</tspan><tspan x="1280.0" dy="15.4">Clarify</tspan></text>
+<rect class="node task" x="1370.0" y="460.0" width="100.0" height="80.0" rx="10"/>
+<rect x="1377.0" y="467.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="1420.0" y="476.9" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="1420.0" dy="0.0">Confirm</tspan><tspan x="1420.0" dy="15.4">Recruitment</tspan><tspan x="1420.0" dy="15.4">Request for</tspan><tspan x="1420.0" dy="15.4">Processing</tspan></text>
+<rect class="node task" x="1100.0" y="460.0" width="100.0" height="80.0" rx="10"/>
+<rect x="1107.0" y="467.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="1150.0" y="484.6" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="1150.0" dy="0.0">Review</tspan><tspan x="1150.0" dy="15.4">Recruitment</tspan><tspan x="1150.0" dy="15.4">Request</tspan></text>
+<circle class="node" cx="1550.0" cy="500.0" r="18.0" stroke="#ba7753" stroke-width="4" fill="white"/>
+<circle cx="1550.0" cy="500.0" r="5" fill="#d6ae69"/>
+<rect class="node task" x="790.0" y="330.0" width="100.0" height="80.0" rx="10"/>
+<rect x="797.0" y="337.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="840.0" y="354.6" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="840.0" dy="0.0">Displays</tspan><tspan x="840.0" dy="15.4">missing</tspan><tspan x="840.0" dy="15.4">fields</tspan></text>
+<polygon class="node" points="840.0,235.0 865.0,260.0 840.0,285.0 815.0,260.0" fill="#fffdf4" stroke="#b19a64" stroke-width="1.9"/>
+<path d="M 831.0 251.0 l 18 18 m 0 -18 l -18 18" stroke="#a68749" stroke-width="3" stroke-linecap="round"/>
+<text class="textshape" x="840.0" y="197.9" fill="#516c5c" text-anchor="middle" font-size="11.4" font-weight="490"><tspan x="840.0" dy="0.0">Are All Required</tspan><tspan x="840.0" dy="14.2">Fields Completed?</tspan></text>
+<rect class="node task" x="660.0" y="220.0" width="100.0" height="80.0" rx="10"/>
+<rect x="667.0" y="227.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="710.0" y="229.2" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="710.0" dy="0.0">Check</tspan><tspan x="710.0" dy="15.4">Whether All</tspan><tspan x="710.0" dy="15.4">Required</tspan><tspan x="710.0" dy="15.4">Fields Are</tspan><tspan x="710.0" dy="15.4">Completed</tspan></text>
+<rect class="node task" x="950.0" y="220.0" width="100.0" height="80.0" rx="10"/>
+<rect x="957.0" y="227.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="1000.0" y="244.6" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="1000.0" dy="0.0">Save Valid</tspan><tspan x="1000.0" dy="15.4">Recruitment</tspan><tspan x="1000.0" dy="15.4">Request</tspan></text>
+<rect class="node task" x="510.0" y="220.0" width="100.0" height="80.0" rx="10"/>
+<rect x="517.0" y="227.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="560.0" y="236.9" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="560.0" dy="0.0">Receive and</tspan><tspan x="560.0" dy="15.4">Validate</tspan><tspan x="560.0" dy="15.4">Required</tspan><tspan x="560.0" dy="15.4">Fields</tspan></text>
+<rect class="node task" x="1100.0" y="220.0" width="100.0" height="80.0" rx="10"/>
+<rect x="1107.0" y="227.0" width="6" height="6" rx="2" fill="#6aab8b" opacity=".75"/>
+<text class="textshape" x="1150.0" y="236.9" fill="#28463c" text-anchor="middle" font-size="12.3" font-weight="490"><tspan x="1150.0" dy="0.0">Notify HR of</tspan><tspan x="1150.0" dy="15.4">New</tspan><tspan x="1150.0" dy="15.4">Recruitment</tspan><tspan x="1150.0" dy="15.4">Request</tspan></text>
+</svg>
