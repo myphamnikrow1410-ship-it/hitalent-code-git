@@ -43,7 +43,7 @@ const interviewees=[
   "name": "Vũ Thị Thảo",
   "age": "29 years old",
   "role": "HR at a Technology Company",
-  "image": "assets/portraits/interview-thao.webp",
+  "image": "interview-thao.webp",
   "habits": "Handles recruitment requests, clarifies job criteria and salary ranks, prepares job posts, screens CVs, coordinates interviews and maintains a separate recruitment tracking list. CVs may be stored on recruitment platforms or in local folders by department and position.",
   "pains": [
    "Candidate salary expectations may exceed the company’s salary range, requiring negotiation with candidates or the hiring department.",
@@ -56,7 +56,7 @@ const interviewees=[
   "name": "Nguyễn Thu Phương",
   "age": "25 years old",
   "role": "HR at a Technology Company",
-  "image": "assets/portraits/interview-phuong.webp",
+  "image": "interview-phuong.webp",
   "habits": "Coordinates job intake, sourcing, CV screening, interview scheduling, candidate communication and status follow-up across HR, hiring managers, technical interviewers and candidates. The scenario assumes spreadsheets, email/chat and calendar tools.",
   "pains": [
    "Manual CV screening and tracking across spreadsheets and files is time-consuming.",
@@ -70,7 +70,7 @@ const interviewees=[
   "name": "Phạm Thế Anh",
   "age": "35 years old",
   "role": "Tech Lead at a Technology Company",
-  "image": "assets/portraits/interview-the-anh.webp",
+  "image": "interview-the-anh.webp",
   "habits": "Clarifies technical requirements, reviews shortlisted CVs, participates in technical interviews and provides recommendations to HR or the hiring manager. The scenario assumes CVs and interview feedback are shared through email, chat or separate forms.",
   "pains": [
    "Repeated clarification with HR because technical requirements are unclear or their practicality has not been fully aligned.",
@@ -85,12 +85,12 @@ const interviewGrid=document.getElementById('interview-grid');
 interviewGrid.innerHTML=interviewees.map(p=>`<article class="interview-card"><div class="interview-head"><img src="${embeddedAsset(p.image)}" alt="Illustrative portrait of a technology company professional" loading="lazy"/><div class="interview-meta"><strong>USER INTERVIEW</strong><h3>${escapeHTML(p.name)}</h3><p>${escapeHTML(p.age)}<br>${escapeHTML(p.role)}</p></div></div><div class="interview-body"><div class="interview-block"><h4>Habits</h4><p>${escapeHTML(p.habits)}</p></div><div class="interview-block"><h4>Pain Points</h4><ul>${p.pains.map(s=>`<li>${escapeHTML(s)}</li>`).join('')}</ul></div><div class="interview-block"><h4>Expectations</h4><p>${escapeHTML(p.expectations)}</p></div><div class="interview-quote">“${escapeHTML(p.quote)}”</div></div></article>`).join('');
 
 const personas=[
- {name:'HR / Recruiter',image:'assets/portraits/persona-hr.webp',quote:'I need one place to manage candidate information and recruitment progress, while making it easier to collect consistent interview feedback and coordinate with hiring teams.',
+ {name:'HR / Recruiter',image:'persona-hr.webp',quote:'I need one place to manage candidate information and recruitment progress, while making it easier to collect consistent interview feedback and coordinate with hiring teams.',
  goals:['Hire qualified candidates within the salary budget.','Keep candidate information and status centralized.','Coordinate stakeholders and collect consistent feedback.'],
  frustrations:['Repeated back-and-forth in scheduling and coordination.','Manual CV screening, scattered profiles and hard-to-build reports.','Inconsistent scorecards complicate hiring decisions.'],
  behaviors:['Screens CVs and maintains tracking spreadsheets.','Uses recruiting sites, email, chat and calendars.','Schedules interviews and consolidates feedback.'],
  context:'Works across departments and positions; coordinates with hiring managers, Tech Leads and candidates throughout recruitment.'},
- {name:'Tech Lead',image:'assets/portraits/persona-techlead.webp',quote:'I want clear, reasonable technical requirements and reminders for pending reviews, so I do not miss important updates while handling project work.',
+ {name:'Tech Lead',image:'persona-techlead.webp',quote:'I want clear, reasonable technical requirements and reminders for pending reviews, so I do not miss important updates while handling project work.',
  goals:['Define realistic technical hiring requirements.','Identify practical skills and relevant project experience.','Complete evaluations without delaying project work.'],
  frustrations:['Repeated alignment with HR when criteria are unclear.','Project priorities can cause missed recruiting updates.','CVs often obscure real contributions and experience.'],
  behaviors:['Clarifies technologies and skill expectations with HR.','Reviews shortlisted CVs and conducts interviews.','Sends feedback through chat, email or separate forms.'],
@@ -101,13 +101,13 @@ personaList.innerHTML=personas.map(p=>`<article class="persona-card"><div class=
 
 // Completely local, dependency-free pan and zoom of XML-derived vector BPMN diagrams.
 const diagramMeta={
- 'erd':{svg:'assets/erd/erd-full.svg',file:'assets/erd/HiTalent_ERD.drawio',width:1972,height:2086,title:'Entity Relationship Diagram'},
- 'as-is':{svg:'assets/bpmn/as-is.svg',file:'bpmn/as-is.bpmn',width:4650,height:1055,title:'Current recruitment process'},
- '1':{svg:'assets/bpmn/flow-1.svg',file:'bpmn/Flow 1 Recruitment management system.bpmn',width:1550,height:833,title:'Flow 1 · Recruitment Request Management'},
- '2':{svg:'assets/bpmn/flow-2.svg',file:'bpmn/Flow 2. Recruitment Preparation & Candidate Screening.bpmn',width:2040,height:705,title:'Flow 2 · Recruitment Preparation & Candidate Screening'},
- '3':{svg:'assets/bpmn/flow-3.svg',file:'bpmn/Flow 3. Interview Scheduling & Booking Link.bpmn',width:2660,height:1125,title:'Flow 3 · Interview Scheduling & Booking Link'},
- '4':{svg:'assets/bpmn/flow-4.svg',file:'bpmn/Flow 4. Interview & Candidate Evaluation.bpmn',width:4170,height:975,title:'Flow 4 · Interview & Candidate Evaluation'},
- '5':{svg:'assets/bpmn/flow-5.svg',file:'bpmn/Flow 5. Hiring Decision & Offer Management.bpmn',width:1900,height:795,title:'Flow 5 · Hiring Decision & Offer Management'}
+ 'erd':{svg:'erd-full.svg',file:'HiTalent_ERD.drawio',width:1972,height:2086,title:'Entity Relationship Diagram'},
+ 'as-is':{svg:'as-is.svg',file:'as-is.bpmn',width:4650,height:1055,title:'Current recruitment process'},
+ '1':{svg:'flow-1.svg',file:'Flow 1 Recruitment management system.bpmn',width:1550,height:833,title:'Flow 1 · Recruitment Request Management'},
+ '2':{svg:'flow-2.svg',file:'Flow 2. Recruitment Preparation & Candidate Screening.bpmn',width:2040,height:705,title:'Flow 2 · Recruitment Preparation & Candidate Screening'},
+ '3':{svg:'flow-3.svg',file:'Flow 3. Interview Scheduling & Booking Link.bpmn',width:2660,height:1125,title:'Flow 3 · Interview Scheduling & Booking Link'},
+ '4':{svg:'flow-4.svg',file:'Flow 4. Interview & Candidate Evaluation.bpmn',width:4170,height:975,title:'Flow 4 · Interview & Candidate Evaluation'},
+ '5':{svg:'flow-5.svg',file:'Flow 5. Hiring Decision & Offer Management.bpmn',width:1900,height:795,title:'Flow 5 · Hiring Decision & Offer Management'}
 };
 function initBpmn(panel,initial){
  const vp=panel.querySelector('.bpmn-viewport'),canvas=panel.querySelector('.bpmn-canvas'),im=canvas.querySelector('img'),zoomLabel=panel.querySelector('.zoom-label'),download=panel.querySelector('.download-bpmn'),title=panel.querySelector('.diagram-title span:last-child');
