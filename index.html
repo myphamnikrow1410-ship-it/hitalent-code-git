@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="HiTalent — recruitment operations management for technology companies. Explore market research, user interviews, personas, BPMN workflows, UI mockups, ERD and the full SRS." />
+  <meta name="theme-color" content="#144b3b" />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>HiTalent — Recruitment Operations Management</title>
+</head>
+<body>
+<a class="skip-link" href="#context">Skip to content</a>
+<header class="site-header" id="top">
+  <div class="nav-wrap">
+    <a href="#top" class="brand" aria-label="HiTalent, back to top"><img src="assets/logo.svg" alt="" /><span>HiTalent<small>Recruitment Operations</small></span></a>
+    <button class="mobile-menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav">☰</button>
+    <nav class="site-nav" id="site-nav" aria-label="Page sections">
+      <a href="#context">Market Context</a><a href="#interviews">User Interview</a><a href="#personas">User Persona</a><a href="#as-is">BPMN AS-IS</a><a href="#problem">Problem</a><a href="#solution">Solution Fit</a><a href="#storymap">Story Map</a><a href="#to-be">BPMN TO-BE</a><a href="#mockups">UI Mockups</a><a href="#erd">ERD</a><a href="#srs">SRS</a>
+    </nav>
+  </div>
+</header>
+<div class="reading-progress" aria-hidden="true"><span id="reading-progress-bar"></span></div>
+<main>
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-ambient" aria-hidden="true"><span class="ambient-ring ring-one"></span><span class="ambient-ring ring-two"></span><span class="ambient-glow glow-one"></span><span class="ambient-glow glow-two"></span><span class="ambient-star star-one">✦</span><span class="ambient-star star-two">✳</span></div>
+    <div class="hero-container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> RECRUITMENT OPERATIONS · TECHNOLOGY COMPANIES</p>
+        <h1 id="hero-title">Hiring works better <em>together.</em></h1>
+        <p class="hero-summary">Turning recruitment challenges into smarter workflows through clear processes, meaningful collaboration, and data-driven solutions.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#context">Explore the case study <span>↗</span></a><a class="btn btn-ghost" href="#as-is">View workflows <span>→</span></a></div>
+        <div class="hero-meta"><span>HR & Recruiters</span><span>Tech Leads</span><span>Technology Companies</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Recruitment journey overview">
+        <div class="hero-deco hero-deco-one"></div><div class="hero-deco hero-deco-two"></div>
+        <div class="journey-panel">
+          <div class="journey-top"><span class="mini-mark">HT</span><span>HIRING JOURNEY</span><span class="live-pill">● IN SYNC</span></div>
+          <h3>From request to offer,<br />with every team aligned.</h3>
+          <div class="journey-flow">
+            <div class="journey-step"><span class="journey-icon">◎</span><div><b>Recruitment request</b><small>HR + Hiring department</small></div><span class="checkmark">✓</span></div>
+            <div class="journey-connector"></div>
+            <div class="journey-step"><span class="journey-icon">▦</span><div><b>Candidate screening</b><small>Clear profile, shared view</small></div><span class="checkmark">✓</span></div>
+            <div class="journey-connector"></div>
+            <div class="journey-step active"><span class="journey-icon">◇</span><div><b>Interview & evaluation</b><small>Consistent feedback</small></div><span class="progress-bubbles"><i></i><i></i><i></i></span></div>
+            <div class="journey-connector"></div>
+            <div class="journey-step muted"><span class="journey-icon">↗</span><div><b>Hiring decision</b><small>A confident next step</small></div></div>
+          </div>
+          <div class="journey-bottom"><span>ONE WORKSPACE</span><span>LESS FRICTION · MORE CLARITY</span></div>
+        </div>
+        <div class="float-chip float-chip-hr"><span class="chip-avatar">HR</span> Team aligned <b>✓</b></div>
+        <div class="float-chip float-chip-tech"><span class="chip-avatar chip-dark">TL</span> Review complete <b>✓</b></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="context">
+    <div class="container">
+      <div class="section-intro"><span class="section-index">01</span><div><p class="kicker">UNDERSTANDING THE LANDSCAPE</p><h2>Market Context</h2><p class="section-lead">As Vietnam’s technology sector continues to grow, companies face increasing challenges in finding qualified tech talent and managing increasingly complex recruitment processes.</p></div></div>
+      <div class="chart-grid">
+        <article class="chart-card"><p class="chart-intro">60.1% of surveyed employers expect their hiring demand to grow in 2026.</p><div class="chart-visual" id="chart-recruitment-plans"></div><h3 class="chart-title">Recruitment Plans for 2026</h3><p class="chart-source">Source: JOBOKO (2025), <cite>Salary and Recruitment Market Report 2026</cite>.</p></article>
+        <article class="chart-card"><p class="chart-intro">IT–Software accounts for 28.8% of reported demand, ranking third among the six groups shown.</p><div class="chart-visual" id="chart-industries"></div><h3 class="chart-title">Recruitment Demand by Industry in 2025</h3><p class="chart-source">Source: JOBOKO (2025), <cite>Salary and Recruitment Market Report 2026</cite>.</p></article>
+        <article class="chart-card"><p class="chart-intro">The biggest hiring obstacle is too few qualified applicants (63.48%), followed by skill gaps.</p><div class="chart-visual" id="chart-challenges"></div><h3 class="chart-title">Recruitment Challenges in 2025</h3><p class="chart-source">Source: JOBOKO (2025), <cite>Salary and Recruitment Market Report 2026</cite>.</p></article>
+        <article class="chart-card"><p class="chart-intro">39.94% use none of the listed tools; only 12.78% report using an applicant tracking system.</p><div class="chart-visual" id="chart-technologies"></div><h3 class="chart-title">Recruitment Technologies Used by Employers</h3><p class="chart-source">Source: JOBOKO (2025), <cite>Salary and Recruitment Market Report 2026</cite>.</p></article>
+      </div>
+      <div class="text-block" id="target-audience"><div class="minor-heading"><h3>Target Audience</h3></div><p>HiTalent is designed for technology companies in Vietnam with recurring recruitment needs, focusing on two collaborating groups:</p><div class="role-lines"><div><p><b>Recruiters / HR Personnel:</b> Manage job intake, candidate profiles, CV screening, interview coordination and recruitment progress.</p></div><div><p><b>Hiring Managers / Interviewers:</b> Define role-specific needs, assess competencies and provide structured interview feedback.</p></div></div></div>
+      <div class="text-block solutions-block" id="current-solutions"><div class="minor-heading"><h3>Current Solutions</h3></div><p>Existing approaches range from spreadsheets and chat tools to specialized applicant tracking systems.</p><div class="comparison-scroll"><table class="comparison-table"><thead><tr><th>Criteria</th><th>Manual Tools</th><th>Local ATS</th><th>International ATS</th></tr></thead><tbody>
+        <tr><th>Examples</th><td>Excel, Google Sheets, Email, Zalo, Calendar</td><td>Base E-Hiring, SHiring.ai</td><td>Greenhouse, Workable</td></tr>
+        <tr><th>Cost</th><td>Free or low cost; added labor overhead</td><td>Base: VND 850,000–5,250,000/month; SHiring: VND 8–80 million/year</td><td>Workable: from $299/month; Greenhouse: custom pricing</td></tr>
+        <tr><th>Market presence</th><td>Common in HR teams</td><td>Established domestic providers</td><td>Used by some businesses; Vietnam adoption data is limited</td></tr>
+        <tr><th>Candidate management</th><td>Separate files and spreadsheets</td><td>Centralized candidate database</td><td>Centralized candidate database</td></tr>
+        <tr><th>CV screening</th><td>Manual review</td><td>AI-assisted CV analysis</td><td>Screening and assessment tools</td></tr>
+        <tr><th>Interview coordination</th><td>Manual scheduling and reminders</td><td>Interview scheduling support</td><td>Scheduling and workflow automation</td></tr>
+        <tr><th>Collaborative evaluation</th><td>Feedback consolidated separately</td><td>Evaluation and feedback features</td><td>Structured interview scorecards</td></tr>
+        <tr><th>Recruitment analytics</th><td>Manually compiled reports</td><td>Recruitment performance reports</td><td>Advanced reporting and analytics</td></tr>
+        <tr><th>Limitations</th><td>Scattered data, repetitive tasks and poor visibility</td><td>Subscription costs; customization varies by plan</td><td>Higher cost and implementation complexity</td></tr>
+      </tbody></table></div><p class="table-note">Indicative vendor pricing and feature descriptions from the source document; verify current plans before procurement.</p></div>
+      <div class="text-block gap-block" id="market-gap"><div class="minor-heading"><h3>Market Gap</h3></div><p>Businesses still face trade-offs between affordability, adaptable workflows and collaboration across departments. HiTalent addresses this gap with a shared hiring workspace designed around HR and technical teams.</p></div>
+    </div>
+  </section>
+
+  <section class="section muted-section" id="interviews">
+    <div class="container"><div class="section-intro"><span class="section-index">02</span><div><p class="kicker">VOICES FROM THE PROCESS</p><h2>User Interview</h2><p class="section-lead">Three perspectives reveal where handoffs, information and decisions become difficult.</p></div></div><div class="interview-grid" id="interview-grid"></div></div>
+  </section>
+
+  <section class="section" id="personas">
+    <div class="container"><div class="section-intro"><span class="section-index">03</span><div><p class="kicker">THE PEOPLE BEHIND THE WORKFLOW</p><h2>User Persona</h2></div></div><div class="persona-list" id="persona-list"></div></div>
+  </section>
+
+  <section class="section diagram-section" id="as-is"><div class="container"><div class="section-intro"><span class="section-index">04</span><div><p class="kicker">MAPPING THE PRESENT</p><h2>BPMN AS-IS</h2><p class="section-lead">Current recruitment process: where work shifts between HR, hiring departments and technical teams.</p></div></div>
+    <div class="diagram-insight">An existing process spread across separate channels increases manual follow-ups and limits visibility.</div>
+    <div class="bpmn-panel" id="as-is-viewer" data-diagram="as-is"><div class="bpmn-toolbar"><div class="diagram-title"><span class="status-dot"></span><span id="as-is-title">Current recruitment process</span></div><div class="diagram-tools"><button type="button" data-action="zoom-out" title="Zoom out" aria-label="Zoom out">−</button><span class="zoom-label" aria-live="polite">Fit</span><button type="button" data-action="zoom-in" title="Zoom in" aria-label="Zoom in">+</button><button type="button" data-action="fit" class="small-text">Fit</button><button type="button" data-action="reset" class="small-text">100%</button><button type="button" data-action="fullscreen" title="Fullscreen" aria-label="Fullscreen">⛶</button><a class="download-bpmn" href="bpmn/as-is.bpmn" data-local-asset="bpmn/as-is.bpmn" download="as-is.bpmn" title="Download source BPMN">↓ BPMN</a></div></div><div class="bpmn-viewport" tabindex="0" aria-label="Interactive AS-IS BPMN diagram; zoom with wheel and pan by dragging"><div class="bpmn-canvas"><img src="assets/bpmn/as-is.svg" width="4650" height="1055" alt="Vector diagram of the current recruitment process" draggable="false" /></div></div></div>
+    <p class="diagram-hint">Drag to pan · Scroll to zoom · Use Fit for an overview · Vector diagram stays sharp at any zoom.</p>
+  </div></section>
+
+  <section class="section muted-section" id="problem"><div class="container"><div class="section-intro"><span class="section-index">05</span><div><p class="kicker">WHERE FRICTION LIVES</p><h2>Problem Statements</h2><p class="section-lead">Different roles experience different bottlenecks in the same hiring journey.</p></div></div><div class="problem-grid"><article class="problem-role"><div class="problem-role-heading"><div><h3>HR / Recruiter</h3></div></div><ol><li>Repeated coordination with hiring teams and candidates slows interview scheduling.</li><li>Manual CV review and scattered files make tracking and reporting inefficient.</li><li>Inconsistent interview forms make feedback difficult to consolidate and compare.</li></ol></article><article class="problem-role"><div class="problem-role-heading"><div><h3>Tech Lead</h3></div></div><ol><li>Unclear technical criteria require repeated clarification with HR.</li><li>Project workloads make recruitment requests and feedback easy to miss.</li><li>CVs often lack clear evidence of practical contributions, slowing assessment.</li></ol></article></div></div></section>
+
+  <section class="section" id="solution"><div class="container"><div class="section-intro"><span class="section-index">06</span><div><p class="kicker">A MORE CONNECTED WAY FORWARD</p><h2>Problem–Solution Fit</h2><p class="section-lead">Each pain point maps to a workflow improvement and a concrete benefit.</p></div></div><div class="solution-concept"><div class="solution-symbol">✳</div><div><h3>Solution Concept</h3><p>HiTalent brings recruitment requests, candidate profiles, workflow progress, interview scheduling, standardized evaluations and reporting together in one shared system.</p></div></div><div class="fit-section"><div class="fit-heading"><h3>HR / Recruiter</h3></div><div class="comparison-scroll"><table class="fit-table"><thead><tr><th>No.</th><th>Pain point</th><th>How HiTalent solves it</th><th>User benefit</th></tr></thead><tbody><tr><td>01</td><td>Recruitment coordination complexity</td><td>Centralized requests, scheduling and stakeholder notifications</td><td>Less back-and-forth communication</td></tr><tr><td>02</td><td>Inefficient candidate management</td><td>One CV database, progress tracker and reporting view</td><td>Faster screening and clearer tracking</td></tr><tr><td>03</td><td>Inconsistent interview evaluation</td><td>Standardized scorecards and collected feedback</td><td>Easier comparison and consistent decisions</td></tr></tbody></table></div></div><div class="fit-section"><div class="fit-heading"><h3>Tech Lead</h3></div><div class="comparison-scroll"><table class="fit-table"><thead><tr><th>No.</th><th>Pain point</th><th>How HiTalent solves it</th><th>User benefit</th></tr></thead><tbody><tr><td>01</td><td>Recruitment requirement misalignment</td><td>Structured request and requirement confirmation</td><td>Clearer criteria; fewer repeated discussions</td></tr><tr><td>02</td><td>Missed recruitment updates</td><td>Reminders for pending CV reviews, interviews and feedback</td><td>Timely responses and fewer missed tasks</td></tr><tr><td>03</td><td>Time-consuming candidate assessment</td><td>Profiles highlighting skills, projects and responsibilities</td><td>Faster, better-informed initial screening</td></tr></tbody></table></div></div></div></section>
+
+  <section class="section muted-section" id="storymap"><div class="container"><div class="section-intro"><span class="section-index">07</span><div><p class="kicker">CONNECTING TASKS TO VALUE</p><h2>User Story Map</h2><p class="section-lead">Explore the story map that organizes the hiring journey around user activities.</p></div></div><div class="embed-header"><span><span class="status-dot"></span> Figma board · HiTalent</span><a class="btn btn-small" href="https://www.figma.com/board/FUXE61RKKjLenl3fjeolnH/Untitled?node-id=0-1&amp;p=f&amp;t=JN56tnjZ9vmevhHY-0" target="_blank" rel="noopener noreferrer">Open full board ↗</a></div><div class="story-embed"><iframe title="HiTalent user story map in Figma" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Fboard%2FFUXE61RKKjLenl3fjeolnH%2FUntitled%3Fnode-id%3D0-1"></iframe></div><p class="embed-note">If your browser blocks the Figma embed, use “Open full board” to view the source.</p></div></section>
+
+  <section class="section diagram-section" id="to-be"><div class="container"><div class="section-intro"><span class="section-index">08</span><div><p class="kicker">DESIGNING THE FUTURE PROCESS</p><h2>BPMN TO-BE</h2><p class="section-lead">Five connected workflows bring clarity and structure to recruitment operations.</p></div></div><div class="flow-tabs" id="flow-tabs" role="tablist" aria-label="Choose a BPMN TO-BE flow"><button type="button" role="tab" data-flow="1" aria-selected="true" class="selected">Flow 1 <span>Requests</span></button><button type="button" role="tab" data-flow="2" aria-selected="false">Flow 2 <span>Screening</span></button><button type="button" role="tab" data-flow="3" aria-selected="false">Flow 3 <span>Scheduling</span></button><button type="button" role="tab" data-flow="4" aria-selected="false">Flow 4 <span>Evaluation</span></button><button type="button" role="tab" data-flow="5" aria-selected="false">Flow 5 <span>Offers</span></button></div>
+    <div class="bpmn-panel" id="to-be-viewer" data-diagram="to-be"><div class="bpmn-toolbar"><div class="diagram-title"><span class="status-dot"></span><span id="to-be-title">Flow 1 · Recruitment Request Management</span></div><div class="diagram-tools"><button type="button" data-action="zoom-out" title="Zoom out" aria-label="Zoom out">−</button><span class="zoom-label" aria-live="polite">Fit</span><button type="button" data-action="zoom-in" title="Zoom in" aria-label="Zoom in">+</button><button type="button" data-action="fit" class="small-text">Fit</button><button type="button" data-action="reset" class="small-text">100%</button><button type="button" data-action="fullscreen" title="Fullscreen" aria-label="Fullscreen">⛶</button><a class="download-bpmn" id="to-be-download" href="bpmn/Flow 1 Recruitment management system.bpmn" data-local-asset="bpmn/Flow 1 Recruitment management system.bpmn" download="Flow 1 Recruitment management system.bpmn" title="Download source BPMN">↓ BPMN</a></div></div><div class="bpmn-viewport" tabindex="0" aria-label="Interactive TO-BE BPMN diagram; zoom with wheel and pan by dragging"><div class="bpmn-canvas"><img src="assets/bpmn/flow-1.svg" width="1550" height="833" alt="Vector flow 1 BPMN diagram" draggable="false" /></div></div></div><p class="diagram-hint">Choose a flow above · Drag to pan · Scroll to zoom · Open fullscreen for detail.</p></div></section>
+
+  <section class="section muted-section mockups-section" id="mockups" aria-labelledby="mockups-heading">
+  <div class="mock-sheen" aria-hidden="true"></div>
+  <div class="container">
+    <div class="section-intro"><span class="section-index">09</span><div><p class="kicker">FROM WORKFLOW TO PRODUCT</p><h2 id="mockups-heading">UI Mockups <span class="heading-spark" aria-hidden="true">✳</span></h2><p class="section-lead">Explore the actual HiTalent interface designs right here, or open the Figma file to inspect every screen in detail.</p></div></div>
+
+    <div class="figma-intro-banner">
+      <div class="figma-banner-decor" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="figma-banner-copy"><p class="figma-banner-label"><span class="live-disc"></span> THE LIVE DESIGN FILE · HITALENT</p><h3>Designed for one connected team.<br /><em>Built around every hiring moment.</em></h3><p>Browse and zoom directly in the design canvas, with no extra steps.</p></div>
+      <a class="btn figma-banner-button" href="https://www.figma.com/design/GIDKlTDY0KMWFflK2MbO4T/HiTalent" target="_blank" rel="noopener noreferrer">View design in Figma <span aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="figma-design-board" id="figma-design-board">
+      <div class="figma-design-toolbar">
+        <div class="figma-toolbar-title"><span class="figma-indicator" aria-hidden="true"></span><div><b>HiTalent · UI Design</b><small>Interactive Figma canvas</small></div></div>
+        <div class="figma-toolbar-actions" role="group" aria-label="Figma viewer actions">
+          <button type="button" class="figma-tool-icon" id="figma-expand" aria-label="Expand design viewer" title="Expand canvas">⛶</button>
+          <a href="https://www.figma.com/design/GIDKlTDY0KMWFflK2MbO4T/HiTalent" target="_blank" rel="noopener noreferrer" class="figma-open-btn">Open in Figma <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="figma-canvas-wrap">
+        <iframe id="hitalent-figma-embed" title="HiTalent UI mockups — interactive Figma design" loading="lazy" allowfullscreen allow="fullscreen" referrerpolicy="strict-origin-when-cross-origin" src="https://embed.figma.com/design/GIDKlTDY0KMWFflK2MbO4T/HiTalent?embed-host=hitalent-portfolio&amp;viewport-controls=true&amp;page-selector=true&amp;theme=light">
+        </iframe>
+      </div>
+      <div class="figma-board-footer"><span class="figma-caption"><span class="figma-caption-dot"></span> Embedded design · Pan, zoom and explore individual frames inside the canvas</span><a href="https://www.figma.com/design/GIDKlTDY0KMWFflK2MbO4T/HiTalent" target="_blank" rel="noopener noreferrer">See the original file ↗</a></div>
+    </div>
+    <div class="figma-sharing-note"><span aria-hidden="true">ⓘ</span><p>If the canvas asks for permission or doesn't load, open the file in Figma. To let everyone view it, the Figma design owner must enable <i>Anyone with the link → Can view</i>.</p></div>
+  </div>
+</section>
+
+
+  <section class="section" id="erd"><div class="container"><div class="section-intro compact-section-intro"><span class="section-index">10</span><div><p class="kicker">DATA MODEL</p><h2>ERD</h2></div></div>
+    <div class="bpmn-panel erd-panel" id="erd-viewer" data-diagram="erd">
+      <div class="bpmn-toolbar"><div class="diagram-title"><span class="status-dot"></span><span>Entity Relationship Diagram</span></div><div class="diagram-tools"><a class="figma-open-btn" href="assets/erd/ERD.drawio.html" data-local-asset="assets/erd/ERD.drawio.html" target="_blank" rel="noopener noreferrer">Open in draw.io ↗</a><a class="download-bpmn" href="assets/erd/HiTalent_ERD.drawio" data-local-asset="assets/erd/HiTalent_ERD.drawio" download="HiTalent_ERD.drawio" title="Download editable draw.io source">↓ Draw.io</a></div></div>
+      <div class="bpmn-viewport erd-viewport" tabindex="0" aria-label="Interactive ERD preview; zoom with the wheel and drag to pan"><div class="bpmn-canvas"><img src="assets/erd/erd-full.svg" width="1972" height="2086" alt="HiTalent entity relationship diagram with full attributes and relationship cardinalities" draggable="false" /></div></div>
+      <div class="bpmn-toolbar erd-toolbar-bottom"><div class="diagram-title"><span class="status-dot"></span><span>24 entities · Full data model</span></div><div class="diagram-tools"><button type="button" data-action="zoom-out" title="Zoom out" aria-label="Zoom out">−</button><span class="zoom-label" aria-live="polite">Fit</span><button type="button" data-action="zoom-in" title="Zoom in" aria-label="Zoom in">+</button><button type="button" data-action="fit" class="small-text">Fit</button><button type="button" data-action="reset" class="small-text">100%</button><button type="button" data-action="fullscreen" title="Fullscreen" aria-label="Fullscreen">⛶</button></div></div>
+    </div><p class="diagram-hint">Drag to pan · Scroll to zoom · Use Fit or fullscreen to explore · Open in draw.io for the original diagram and its pages.</p>
+  </div></section>
+  <section class="section section-end" id="srs"><div class="container"><div class="section-intro compact-section-intro"><span class="section-index">11</span><div><p class="kicker">SYSTEM REQUIREMENTS</p><h2>SRS</h2></div></div>
+    <div class="pending-placeholder srs-card"><span class="pending-icon" aria-hidden="true">≡</span><div class="srs-card-copy"><h3>Software Requirements Specification</h3><p>Version 1.0 · 18 November 2026 · 52 pages · Full project requirements</p></div><div class="srs-actions"><a class="figma-open-btn" href="assets/documents/HiTalent_SRS.pdf" data-local-asset="assets/documents/HiTalent_SRS.pdf" target="_blank" rel="noopener noreferrer">Read full SRS ↗</a><a class="btn btn-small" href="assets/documents/HiTalent_SRS.pdf" data-local-asset="assets/documents/HiTalent_SRS.pdf" download="HiTalent_SRS.pdf">Download PDF ↓</a></div></div>
+  </div></section>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><div class="footer-brand"><img src="assets/logo.svg" alt=""/><div><b>HiTalent</b><small>Better hiring, together.</small></div></div><p>Recruitment Operations Management System for Technology Companies</p><a href="#top">Back to top ↑</a></div></footer>
+<script src="js/app.js" defer></script>
+</body>
+</html>
